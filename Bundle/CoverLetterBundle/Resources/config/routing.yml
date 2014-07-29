@@ -1,0 +1,23 @@
+clw_cover_letter_homepage:
+    pattern:  /clw
+    defaults: { _controller: CLWCoverLetterBundle:Default:index }
+
+clw_cover_letter_step_two:
+    pattern:  /clw/2
+    defaults: { _controller: CLWCoverLetterBundle:Default:stepTwo }
+
+clw_cover_letter_step_three:
+    pattern:  /clw/3
+    defaults: { _controller: CLWCoverLetterBundle:Default:stepThree }
+
+clw_cover_letter_step_four:
+    pattern:  /clw/4
+    defaults: { _controller: CLWCoverLetterBundle:Default:stepFour }
+
+clw_cover_letter_step_five:
+    pattern:  /clw/5
+    defaults: { _controller: CLWCoverLetterBundle:Default:stepFive }
+
+clw_cover_letter_show_letter:
+    pattern:  /clw/letter
+    defaults: { _controller: CLWCoverLetterBundle:Default:showLetter }
